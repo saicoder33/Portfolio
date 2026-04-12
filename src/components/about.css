@@ -1,0 +1,37 @@
+.about {
+    padding: 2rem;
+    background-color: #ffffff;
+    text-align: left;
+    color: black;
+}
+
+.about-details {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+     border: 1px solid #ccc;
+    flex-wrap: wrap; /* helps on smaller screens */
+   
+}
+.ui {
+    max-width: 150px;
+    border-radius: 8px;
+    padding-top: 20px;
+    padding-left: 20px;
+
+}
+.python {
+    max-width: 150px;
+    border-radius: 8px;
+    padding-top: 20px;
+    padding-left: 20px;
+
+}
+.node {
+    max-width: 150px;
+    border-radius: 8px;
+    padding-top: 20px;
+    padding-left: 20px;
+
+}
