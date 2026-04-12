@@ -1,14 +1,16 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: white;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
   padding: 15px;
-  background: #333;
   color: white;
+  background-color: white;
 }
 
 .navbar ul {
@@ -20,8 +22,7 @@ body {
 .hero {
   text-align: center;
   padding: 100px;
-  background: linear-gradient(to right, #4facfe, #00f2fe);
-  color: white;
+  
 }
 
 .about, .projects, .contact {

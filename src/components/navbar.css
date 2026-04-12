@@ -1,0 +1,19 @@
+navbar{
+    color: white;
+    display: flex;
+    
+}
+.navbar a,
+.navbar a:visited {
+    color: rgb(37, 37, 132);
+    text-decoration: none;
+}
+
+.title {
+    margin: 0;
+    font-size: 24px;
+    color: rgb(37, 37, 132);
+    text-shadow: 1px 1px 2px rgba(133, 181, 240, 0.884);
+    padding-right:120px;
+    text-align: center;
+}

@@ -1,0 +1,32 @@
+.hero {
+  display: flex;               /* parent flex container */
+  align-items: center;         /* vertical alignment */
+  justify-content: space-between; /* text left, image right */
+  padding: 2rem;
+  background: linear-gradient(to right, #d43ac5, #e0e0e0,rgb(208, 208, 248));
+}
+
+.info {
+  flex: 1;                     /* text takes available space */
+  margin-right: 2rem;
+}
+
+.intro {
+  font-weight: bold;
+  text-align: start;
+}
+
+.hero-image img {
+  width: 250px;                /* control image size */
+  border-radius: 8px;
+}
+
+.btn {
+  background-color:cyan;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 1rem;
+}
