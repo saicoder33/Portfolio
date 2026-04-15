@@ -35,5 +35,5 @@ export default About;
 <div className="project-card">
         <h3>Campus App</h3>
         <p>App built for students to manage events and resources.</p>
-        <a href="#">View Project</a>
+        <a href="#projects">View Project</a>
       </div>
